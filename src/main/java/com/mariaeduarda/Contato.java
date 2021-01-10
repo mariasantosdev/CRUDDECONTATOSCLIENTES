@@ -16,6 +16,12 @@ public Contato(String id, String nome, String telefone) {
 	this.telefone = telefone;
 }
 
+public boolean isNovo() {
+	
+	return id == null;
+}
+
+
 
 
 public String getId() {
